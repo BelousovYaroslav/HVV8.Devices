@@ -33,6 +33,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "MSW", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -42,6 +44,9 @@ public class HVV_HvDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
         
         m_devices.put( "PRE", dev);
         
@@ -53,6 +58,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "VIB", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -62,6 +69,8 @@ public class HVV_HvDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_lstCanGraph = null;
         
         m_devices.put( "REG", dev);
 
@@ -75,6 +84,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L1A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -86,6 +100,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L1T", dev);
         
@@ -99,6 +118,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L2A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -110,6 +134,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L2T", dev);
         
@@ -123,6 +152,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L3A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -134,6 +168,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L3T", dev);
         
@@ -147,6 +186,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L4A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -158,6 +202,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L4T", dev);
         
@@ -171,6 +220,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L5A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -182,6 +236,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L5T", dev);
         
@@ -195,6 +254,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L6A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -206,6 +270,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L6T", dev);
         
@@ -219,6 +288,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L7A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -230,6 +304,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L7T", dev);
         
@@ -243,6 +322,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
         
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
+        
         m_devices.put( "L8A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -254,6 +338,11 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Ток");
         dev.m_mapParameters.put( "03", "Напряжение");
+        
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         
         m_devices.put( "L8T", dev);
         
@@ -290,6 +379,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "3", "Канал 3");
         dev.m_mapParameters.put( "4", "Канал 4");
         
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "DAC1", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -302,6 +393,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "2", "Канал 2");
         dev.m_mapParameters.put( "3", "Канал 3");
         dev.m_mapParameters.put( "4", "Канал 4");
+        
+        dev.m_lstCanGraph = null;
         
         m_devices.put( "DAC2", dev);
         
@@ -316,6 +409,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "3", "Канал 3");
         dev.m_mapParameters.put( "4", "Канал 4");
         
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "DAC3", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -329,6 +424,8 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "3", "Канал 3");
         dev.m_mapParameters.put( "4", "Канал 4");
         
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "DAC4", dev);
     }
    
@@ -337,7 +434,7 @@ public class HVV_HvDevices {
          singletonDevices = new HVV_HvDevices();
       }
       return singletonDevices;
-   }
+    }
    
 
     // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -368,16 +465,41 @@ public class HVV_HvDevices {
     //DAC3.Напряжения на DAC3
     //DAC4.Напряжения на DAC4
     
+    /*
     public void fillComboWait( DefaultComboBoxModel model) {
         model.removeAllElements();
         Set set = m_devices.entrySet();
         Iterator it = set.iterator();
         while( it.hasNext()) {
             Map.Entry entry = (Map.Entry) it.next();
-            HVV_VacuumDevice dev = ( HVV_VacuumDevice) entry.getValue();
+            HVV_HvDevice dev = ( HVV_HvDevice) entry.getValue();
             if( dev.m_lstCanWait != null) {
                 if( dev.m_lstCanWait.size() > 0) {
                     Iterator it2 = dev.m_lstCanWait.iterator();
+                    while( it2.hasNext()) {
+                        String strParameterKey = ( String) it2.next();
+                        String strParameterName = ( String) dev.m_mapParameters.get( strParameterKey);
+                        model.addElement( dev.m_strID + "." + dev.m_strName + "." + strParameterKey + "." + strParameterName);
+                    }
+                }
+            }
+        }
+    }
+    */
+    
+    public void fillComboGraph( DefaultComboBoxModel model, boolean bClear) {
+        
+        if( bClear)
+            model.removeAllElements();
+        
+        Set set = m_devices.entrySet();
+        Iterator it = set.iterator();
+        while( it.hasNext()) {
+            Map.Entry entry = (Map.Entry) it.next();
+            HVV_HvDevice dev = ( HVV_HvDevice) entry.getValue();
+            if( dev.m_lstCanGraph != null) {
+                if( dev.m_lstCanGraph.size() > 0) {
+                    Iterator it2 = dev.m_lstCanGraph.iterator();
                     while( it2.hasNext()) {
                         String strParameterKey = ( String) it2.next();
                         String strParameterName = ( String) dev.m_mapParameters.get( strParameterKey);

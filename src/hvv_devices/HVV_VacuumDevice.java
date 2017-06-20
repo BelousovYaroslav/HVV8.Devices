@@ -23,6 +23,7 @@ public class HVV_VacuumDevice {
     
     public LinkedList m_lstCanWait;
     public LinkedList m_lstCanSet;
+    public LinkedList m_lstCanGraph;
     
     public String toString() {
         return m_strID + ". " + m_strName;

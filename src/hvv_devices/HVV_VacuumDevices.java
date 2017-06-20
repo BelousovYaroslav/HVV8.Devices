@@ -37,6 +37,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "00A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -51,6 +52,8 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "001", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -67,6 +70,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add("02");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("02");
         m_devices.put( "002", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -83,6 +88,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "02");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("02");
         m_devices.put( "003", dev);
 
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -98,6 +105,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "04A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -113,6 +122,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "04B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -128,6 +139,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "04C", dev);
      
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -143,6 +156,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "005", dev);
 
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -158,6 +173,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "006", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -173,6 +190,8 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add("01");
         m_devices.put( "007", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -187,6 +206,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "08A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -201,6 +221,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "08B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -215,6 +236,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "08C", dev);
 
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -229,6 +251,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "09A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -243,6 +266,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "09B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -257,6 +281,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "09C", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -271,6 +296,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "09D", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -285,6 +311,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "10A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -299,6 +326,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "10B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -313,6 +341,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "10C", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -327,6 +356,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "11A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -341,6 +371,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "11B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -355,6 +386,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "012", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -369,6 +401,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "013", dev);
      
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -383,6 +416,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "14A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -397,6 +431,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "14B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -411,6 +446,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "14C", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -425,6 +461,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "14D", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -439,6 +476,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "14E", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -453,6 +491,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "15A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -467,6 +506,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "15B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -481,8 +521,9 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         
         dev.m_lstCanWait = null;
-        
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
+        
         m_devices.put( "15C", dev);
 
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -501,6 +542,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "16A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -519,6 +564,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "16B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -537,6 +586,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "16C", dev);
 
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -555,6 +608,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "17A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -573,6 +630,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "17B", dev);
      
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -591,6 +652,10 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait.add( "03");
         dev.m_lstCanSet = new LinkedList();
         dev.m_lstCanSet.add( "02");
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "018", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -606,6 +671,7 @@ public class HVV_VacuumDevices {
         dev.m_lstCanWait = new LinkedList();
         dev.m_lstCanWait.add( "01");
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "020", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -620,6 +686,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "021", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -634,6 +701,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "23A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -648,6 +716,7 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = null;
         m_devices.put( "23B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -664,6 +733,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -680,6 +753,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24B", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -696,6 +773,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24C", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -712,6 +793,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24D", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -728,6 +813,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24E", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -744,6 +833,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24F", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -760,6 +853,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24G", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -776,6 +873,10 @@ public class HVV_VacuumDevices {
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
         dev.m_lstCanSet = null;
+        dev.m_lstCanGraph = new LinkedList();
+        dev.m_lstCanGraph.add( "01");
+        dev.m_lstCanGraph.add( "02");
+        dev.m_lstCanGraph.add( "03");
         m_devices.put( "24H", dev);
         
     }
@@ -884,6 +985,29 @@ public class HVV_VacuumDevices {
             if( dev.m_lstCanWait != null) {
                 if( dev.m_lstCanWait.size() > 0) {
                     Iterator it2 = dev.m_lstCanWait.iterator();
+                    while( it2.hasNext()) {
+                        String strParameterKey = ( String) it2.next();
+                        String strParameterName = ( String) dev.m_mapParameters.get( strParameterKey);
+                        model.addElement( dev.m_strID + "." + dev.m_strName + "." + strParameterKey + "." + strParameterName);
+                    }
+                }
+            }
+        }
+    }
+    
+    public void fillComboGraph( DefaultComboBoxModel model, boolean bClear) {
+        
+        if( bClear)
+            model.removeAllElements();
+        
+        Set set = m_devices.entrySet();
+        Iterator it = set.iterator();
+        while( it.hasNext()) {
+            Map.Entry entry = (Map.Entry) it.next();
+            HVV_VacuumDevice dev = ( HVV_VacuumDevice) entry.getValue();
+            if( dev.m_lstCanGraph != null) {
+                if( dev.m_lstCanGraph.size() > 0) {
+                    Iterator it2 = dev.m_lstCanGraph.iterator();
                     while( it2.hasNext()) {
                         String strParameterKey = ( String) it2.next();
                         String strParameterName = ( String) dev.m_mapParameters.get( strParameterKey);
