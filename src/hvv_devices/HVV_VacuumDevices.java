@@ -996,7 +996,6 @@ public class HVV_VacuumDevices {
     }
     
     public void fillComboGraph( DefaultComboBoxModel model, boolean bClear) {
-        
         if( bClear)
             model.removeAllElements();
         
@@ -1006,7 +1005,7 @@ public class HVV_VacuumDevices {
             Map.Entry entry = (Map.Entry) it.next();
             HVV_VacuumDevice dev = ( HVV_VacuumDevice) entry.getValue();
             if( dev.m_lstCanGraph != null) {
-                if( dev.m_lstCanGraph.size() > 0) {
+                if( dev.m_lstCanGraph.size() > 0 ) {
                     Iterator it2 = dev.m_lstCanGraph.iterator();
                     while( it2.hasNext()) {
                         String strParameterKey = ( String) it2.next();

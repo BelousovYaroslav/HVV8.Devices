@@ -498,12 +498,12 @@ public class HVV_HvDevices {
             Map.Entry entry = (Map.Entry) it.next();
             HVV_HvDevice dev = ( HVV_HvDevice) entry.getValue();
             if( dev.m_lstCanGraph != null) {
-                if( dev.m_lstCanGraph.size() > 0) {
+                if( dev.m_lstCanGraph.size() > 0 ) {
                     Iterator it2 = dev.m_lstCanGraph.iterator();
                     while( it2.hasNext()) {
                         String strParameterKey = ( String) it2.next();
                         String strParameterName = ( String) dev.m_mapParameters.get( strParameterKey);
-                        model.addElement( dev.m_strID + "." + dev.m_strName + "." + strParameterKey + "." + strParameterName);
+                        model.addElement( dev.m_strID + "." + dev.m_strName.substring( 0, dev.m_strName.length() -1) + "." + strParameterKey + "." + strParameterName);
                     }
                 }
             }
