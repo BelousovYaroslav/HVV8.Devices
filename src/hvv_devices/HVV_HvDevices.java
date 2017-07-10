@@ -33,6 +33,9 @@ public class HVV_HvDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        
         dev.m_lstCanGraph = null;
         
         m_devices.put( "MSW", dev);
@@ -44,6 +47,9 @@ public class HVV_HvDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "мкА");
         
         dev.m_lstCanGraph = new LinkedList();
         dev.m_lstCanGraph.add( "01");
@@ -58,6 +64,9 @@ public class HVV_HvDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        
         dev.m_lstCanGraph = null;
         
         m_devices.put( "VIB", dev);
@@ -69,6 +78,9 @@ public class HVV_HvDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Режим");
         
         dev.m_lstCanGraph = null;
         
@@ -89,6 +101,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L1A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -105,6 +122,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L1T", dev);
         
@@ -123,6 +145,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L2A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -139,6 +166,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L2T", dev);
         
@@ -157,6 +189,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L3A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -173,6 +210,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L3T", dev);
         
@@ -191,6 +233,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L4A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -207,6 +254,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L4T", dev);
         
@@ -225,6 +277,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L5A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -241,6 +298,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L5T", dev);
         
@@ -259,6 +321,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L6A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -275,6 +342,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L6T", dev);
         
@@ -293,6 +365,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L7A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -309,6 +386,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L7T", dev);
         
@@ -327,6 +409,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
+        
         m_devices.put( "L8A", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -343,6 +430,11 @@ public class HVV_HvDevices {
         dev.m_lstCanGraph.add( "01");
         dev.m_lstCanGraph.add( "02");
         dev.m_lstCanGraph.add( "03");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "мкА");
+        dev.m_mapParametersUnits.put( "03", "В");
         
         m_devices.put( "L8T", dev);
         
@@ -381,6 +473,12 @@ public class HVV_HvDevices {
         
         dev.m_lstCanGraph = null;
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "1", "В");
+        dev.m_mapParametersUnits.put( "2", "В");
+        dev.m_mapParametersUnits.put( "3", "В");
+        dev.m_mapParametersUnits.put( "4", "В");
+        
         m_devices.put( "DAC1", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -395,6 +493,12 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "4", "Канал 4");
         
         dev.m_lstCanGraph = null;
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "1", "В");
+        dev.m_mapParametersUnits.put( "2", "В");
+        dev.m_mapParametersUnits.put( "3", "В");
+        dev.m_mapParametersUnits.put( "4", "В");
         
         m_devices.put( "DAC2", dev);
         
@@ -411,6 +515,12 @@ public class HVV_HvDevices {
         
         dev.m_lstCanGraph = null;
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "1", "В");
+        dev.m_mapParametersUnits.put( "2", "В");
+        dev.m_mapParametersUnits.put( "3", "В");
+        dev.m_mapParametersUnits.put( "4", "В");
+        
         m_devices.put( "DAC3", dev);
         
         // *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
@@ -425,6 +535,12 @@ public class HVV_HvDevices {
         dev.m_mapParameters.put( "4", "Канал 4");
         
         dev.m_lstCanGraph = null;
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "1", "В");
+        dev.m_mapParametersUnits.put( "2", "В");
+        dev.m_mapParametersUnits.put( "3", "В");
+        dev.m_mapParametersUnits.put( "4", "В");
         
         m_devices.put( "DAC4", dev);
     }

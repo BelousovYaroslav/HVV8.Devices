@@ -33,6 +33,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -47,6 +50,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
@@ -64,6 +70,10 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Обороты");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "об. / мин");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
@@ -83,6 +93,10 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Обороты");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл / выкл");
+        dev.m_mapParametersUnits.put( "02", "об. / мин");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = new LinkedList();
@@ -99,6 +113,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
@@ -117,6 +134,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = new LinkedList();
@@ -133,6 +153,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
@@ -151,6 +174,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение (Показания вакуума)");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = new LinkedList();
@@ -167,6 +193,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение (Показания вакуума)");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
@@ -185,6 +214,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Значение (Показания вакуума)");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Па");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = new LinkedList();
@@ -202,6 +234,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -216,6 +251,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -232,6 +270,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -246,6 +287,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -262,6 +306,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -276,6 +323,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -292,6 +342,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -306,6 +359,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -322,6 +378,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -336,6 +395,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -352,6 +414,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -366,6 +431,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -382,6 +450,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -396,6 +467,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -412,6 +486,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -426,6 +503,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -442,6 +522,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -456,6 +539,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -472,6 +558,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -486,6 +575,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -502,6 +594,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -516,6 +611,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -535,6 +633,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -558,6 +661,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = new LinkedList();
@@ -579,6 +687,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -602,6 +715,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = new LinkedList();
@@ -623,6 +741,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Состояние");
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -646,6 +769,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Уставка потока");
         dev.m_mapParameters.put( "03", "Измеряемый поток");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        dev.m_mapParametersUnits.put( "02", "Поток.уставка.");
+        dev.m_mapParametersUnits.put( "03", "Поток.протекающий.");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = new LinkedList();
@@ -666,6 +794,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Замкнуто/разомкнуто");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = new LinkedList();
@@ -682,6 +813,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -697,6 +831,9 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
+        
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
         dev.m_lstCanWait = null;
@@ -711,6 +848,9 @@ public class HVV_VacuumDevices {
         
         dev.m_mapParameters = new TreeMap();
         dev.m_mapParameters.put( "01", "Состояние");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Открыт/закрыт");
         
         dev.m_bCanTurnOnOff = false;
         dev.m_bCanOpenClose = true;
@@ -728,6 +868,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Включение");
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
@@ -749,6 +894,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -768,6 +918,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Включение");
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
@@ -789,6 +944,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -808,6 +968,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Включение");
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
@@ -829,6 +994,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -849,6 +1019,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
         
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
+        
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;
         dev.m_lstCanWait = null;
@@ -868,6 +1043,11 @@ public class HVV_VacuumDevices {
         dev.m_mapParameters.put( "01", "Включение");
         dev.m_mapParameters.put( "02", "Температура");
         dev.m_mapParameters.put( "03", "Подключение");
+        
+        dev.m_mapParametersUnits = new TreeMap();
+        dev.m_mapParametersUnits.put( "01", "Вкл/выкл");
+        dev.m_mapParametersUnits.put( "02", "°С");
+        dev.m_mapParametersUnits.put( "03", "Подключено/Отключено");
         
         dev.m_bCanTurnOnOff = true;
         dev.m_bCanOpenClose = false;

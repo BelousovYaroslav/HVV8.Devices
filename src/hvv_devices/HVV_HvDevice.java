@@ -17,6 +17,7 @@ public class HVV_HvDevice {
     public String m_strName;
     
     public TreeMap m_mapParameters;
+    public TreeMap m_mapParametersUnits;
     public LinkedList m_lstCanGraph;
     
     public String toString() {

@@ -20,6 +20,7 @@ public class HVV_VacuumDevice {
     public boolean m_bCanOpenClose;
     
     public TreeMap m_mapParameters;
+    public TreeMap m_mapParametersUnits;
     
     public LinkedList m_lstCanWait;
     public LinkedList m_lstCanSet;
